@@ -1,0 +1,1384 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title "C13"
+Date "2022-09-19"
+Rev "0"
+Comp "Frank Schumacher"
+Comment1 "C13.0"
+Comment2 "Occ*4 Board"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 650  800  0    118  ~ 0
+RcmTX
+$Comp
+L Device:R R34
+U 1 1 5FD5C082
+P 2200 6550
+F 0 "R34" V 2000 6550 50  0000 C CNN
+F 1 "220k" V 2100 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 6550 50  0001 C CNN
+F 3 "~" H 2200 6550 50  0001 C CNN
+	1    2200 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 5FD5CB88
+P 2650 6550
+F 0 "R36" V 2450 6550 50  0000 C CNN
+F 1 "9.1k" V 2550 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 6550 50  0001 C CNN
+F 3 "~" H 2650 6550 50  0001 C CNN
+	1    2650 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 6550 2400 6550
+Text GLabel 2050 6550 0    50   Input ~ 0
+DCC-a-F
+$Comp
+L power:GND #PWR?
+U 1 1 5FD5E2AC
+P 2800 6550
+AR Path="/5B6C6B9D/5FD5E2AC" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/5FD5E2AC" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/5FD5E2AC" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 2800 6300 50  0001 C CNN
+F 1 "GND" H 2805 6377 50  0000 C CNN
+F 2 "" H 2800 6550 50  0001 C CNN
+F 3 "" H 2800 6550 50  0001 C CNN
+	1    2800 6550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2050 6350 0    50   Output ~ 0
+UDCC-a
+Wire Wire Line
+	2050 6350 2400 6350
+Wire Wire Line
+	2400 6350 2400 6550
+Connection ~ 2400 6550
+Wire Wire Line
+	2400 6550 2500 6550
+$Comp
+L Device:R R35
+U 1 1 5FD60754
+P 2200 7150
+F 0 "R35" V 2000 7150 50  0000 C CNN
+F 1 "220k" V 2100 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 7150 50  0001 C CNN
+F 3 "~" H 2200 7150 50  0001 C CNN
+	1    2200 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 5FD6075E
+P 2650 7150
+F 0 "R37" V 2450 7150 50  0000 C CNN
+F 1 "9.1k" V 2550 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 7150 50  0001 C CNN
+F 3 "~" H 2650 7150 50  0001 C CNN
+	1    2650 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 7150 2400 7150
+Text GLabel 2050 7150 0    50   Input ~ 0
+DCC-b-F
+$Comp
+L power:GND #PWR?
+U 1 1 5FD6076A
+P 2800 7150
+AR Path="/5B6C6B9D/5FD6076A" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/5FD6076A" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/5FD6076A" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 2800 6900 50  0001 C CNN
+F 1 "GND" H 2805 6977 50  0000 C CNN
+F 2 "" H 2800 7150 50  0001 C CNN
+F 3 "" H 2800 7150 50  0001 C CNN
+	1    2800 7150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2050 6950 0    50   Output ~ 0
+UDCC-b
+Wire Wire Line
+	2050 6950 2400 6950
+Wire Wire Line
+	2400 6950 2400 7150
+Connection ~ 2400 7150
+Wire Wire Line
+	2400 7150 2500 7150
+$Comp
+L Transistor_BJT:BC857BS Q5
+U 1 1 60A77880
+P 4850 6300
+F 0 "Q5" H 5040 6254 50  0000 L CNN
+F 1 "BC857BS" H 5040 6345 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 5050 6400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" H 4850 6300 50  0001 C CNN
+	1    4850 6300
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC857BS Q5
+U 2 1 60A7788A
+P 4600 6600
+F 0 "Q5" H 4791 6554 50  0000 L CNN
+F 1 "BC857BS" H 4791 6645 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4800 6700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" H 4600 6600 50  0001 C CNN
+	2    4600 6600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 6600 4950 6600
+Wire Wire Line
+	4950 6500 4950 6600
+Connection ~ 4950 6600
+Wire Wire Line
+	4950 6600 5200 6600
+Wire Wire Line
+	4500 6400 4500 6300
+Wire Wire Line
+	4650 6300 4500 6300
+Connection ~ 4500 6300
+Wire Wire Line
+	4500 6300 4500 6200
+$Comp
+L Device:R R28
+U 1 1 60A7789C
+P 5350 6600
+F 0 "R28" V 5150 6600 50  0000 C CNN
+F 1 "3.3k" V 5250 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5280 6600 50  0001 C CNN
+F 3 "~" H 5350 6600 50  0001 C CNN
+	1    5350 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 6600 5700 6600
+$Comp
+L Device:R R27
+U 1 1 60A778A7
+P 4500 6050
+F 0 "R27" V 4300 6050 50  0000 C CNN
+F 1 "22" V 4400 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 6050 50  0001 C CNN
+F 3 "~" H 4500 6050 50  0001 C CNN
+	1    4500 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 5850 4500 5850
+Wire Wire Line
+	4950 5850 4950 6100
+Wire Wire Line
+	4500 5850 4500 5900
+Connection ~ 4500 5850
+Wire Wire Line
+	4500 5850 4950 5850
+$Comp
+L Device:D D31
+U 1 1 60A778B6
+P 4250 7300
+F 0 "D31" H 4250 7100 50  0000 C CNN
+F 1 "D" H 4250 7200 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 4250 7300 50  0001 C CNN
+F 3 "~" H 4250 7300 50  0001 C CNN
+	1    4250 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 7300 4500 7300
+Wire Wire Line
+	4500 7000 4500 6800
+Wire Wire Line
+	4100 7300 4050 7300
+$Comp
+L Device:D D30
+U 1 1 60A778CD
+P 4250 7000
+F 0 "D30" H 4250 6800 50  0000 C CNN
+F 1 "D" H 4250 6900 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 4250 7000 50  0001 C CNN
+F 3 "~" H 4250 7000 50  0001 C CNN
+	1    4250 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 7000 4500 7000
+Wire Wire Line
+	4100 7000 4050 7000
+Wire Wire Line
+	4500 7000 4500 7300
+Connection ~ 4500 7000
+Text GLabel 5700 6600 2    50   Input ~ 0
+RCM.tx
+Text GLabel 4050 7300 0    50   Input ~ 0
+DCC-b
+$Comp
+L power:VCC #PWR?
+U 1 1 60A778C2
+P 4050 5850
+AR Path="/5CA7768A/60A778C2" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/60A778C2" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 4050 5700 50  0001 C CNN
+F 1 "VCC" V 4067 5978 50  0000 L CNN
+F 2 "" H 4050 5850 50  0001 C CNN
+F 3 "" H 4050 5850 50  0001 C CNN
+	1    4050 5850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4050 7000 0    50   Input ~ 0
+DCC-a
+$Comp
+L _SamacSys:INA381 U5
+U 1 1 62807C1D
+P 3700 1850
+AR Path="/62807C1D" Ref="U5"  Part="1" 
+AR Path="/5B6D3404/62807C1D" Ref="U5"  Part="1" 
+F 0 "U5" H 3900 1800 50  0000 L CNN
+F 1 "INA381" H 3900 1700 50  0000 L CNN
+F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" H 3700 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 3700 1850 50  0001 C CNN
+	1    3700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L _SamacSys:INA381 U6
+U 1 1 628097D0
+P 5050 1850
+AR Path="/628097D0" Ref="U6"  Part="1" 
+AR Path="/5B6D3404/628097D0" Ref="U6"  Part="1" 
+F 0 "U6" H 5250 1800 50  0000 L CNN
+F 1 "INA381" H 5250 1700 50  0000 L CNN
+F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" H 5050 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 5050 1850 50  0001 C CNN
+	1    5050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6280E62E
+P 3050 1850
+F 0 "R3" V 2850 1850 50  0001 C CNN
+F 1 "22" V 2950 1850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 1850 50  0001 C CNN
+F 3 "~" H 3050 1850 50  0001 C CNN
+	1    3050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D15
+U 1 1 62810BAA
+P 2850 1850
+F 0 "D15" V 2804 1929 50  0001 L CNN
+F 1 "SS34FA" V 2895 1929 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 2850 1850 50  0001 C CNN
+F 3 "~" H 2850 1850 50  0001 C CNN
+	1    2850 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D4
+U 1 1 62811AB1
+P 2650 1850
+F 0 "D4" V 2604 1929 50  0001 L CNN
+F 1 "SS34FA" V 2695 1929 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 2650 1850 50  0001 C CNN
+F 3 "~" H 2650 1850 50  0001 C CNN
+	1    2650 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 1700 3250 1750
+Wire Wire Line
+	3250 1750 3400 1750
+Wire Wire Line
+	2650 1700 2850 1700
+Connection ~ 2850 1700
+Wire Wire Line
+	2850 1700 3050 1700
+Connection ~ 3050 1700
+Wire Wire Line
+	3050 1700 3250 1700
+Wire Wire Line
+	3250 2000 3250 1950
+Wire Wire Line
+	3250 1950 3400 1950
+Wire Wire Line
+	2650 2000 2850 2000
+Connection ~ 2850 2000
+Wire Wire Line
+	2850 2000 3050 2000
+Connection ~ 3050 2000
+Wire Wire Line
+	3050 2000 3250 2000
+Wire Wire Line
+	3800 1550 4000 1550
+Wire Wire Line
+	4000 1550 4000 1850
+Text GLabel 5500 1450 2    50   Input ~ 0
+REF
+Wire Wire Line
+	3800 2150 3800 2300
+Wire Wire Line
+	3800 2300 5150 2300
+Wire Wire Line
+	5150 2300 5150 2150
+Wire Wire Line
+	3700 2150 3700 2400
+Wire Wire Line
+	3700 2400 5050 2400
+Wire Wire Line
+	5050 2400 5050 2150
+Wire Wire Line
+	5050 2400 5500 2400
+Connection ~ 5050 2400
+Connection ~ 5150 2300
+Wire Wire Line
+	5050 1450 5050 1550
+Wire Wire Line
+	5050 1450 3700 1450
+Wire Wire Line
+	3700 1450 3700 1550
+Connection ~ 5050 1450
+Wire Wire Line
+	5150 1550 5350 1550
+Wire Wire Line
+	5350 1550 5350 1850
+Wire Wire Line
+	3250 2000 3250 2200
+Wire Wire Line
+	3250 2200 4500 2200
+Connection ~ 3250 2000
+Wire Wire Line
+	3600 1250 3600 1550
+Wire Wire Line
+	3600 1250 4950 1250
+Wire Wire Line
+	4950 1250 4950 1550
+Connection ~ 3250 1700
+Wire Wire Line
+	4500 2200 4500 1950
+Wire Wire Line
+	4500 1750 4700 1950
+Wire Wire Line
+	4700 1950 4750 1950
+Wire Wire Line
+	4500 1950 4700 1750
+Wire Wire Line
+	4700 1750 4750 1750
+Text GLabel 5500 2400 2    50   Output ~ 0
+OCC0
+Wire Wire Line
+	3250 1350 4500 1350
+Wire Wire Line
+	4500 1350 4500 1750
+Wire Wire Line
+	3250 1350 3250 1700
+Text GLabel 5500 2300 2    50   Input ~ 0
+OCCRES
+$Comp
+L power:+3V3 #PWR?
+U 1 1 628F0D82
+P 1950 1250
+AR Path="/5B6C6B9D/628F0D82" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/628F0D82" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 1950 1100 50  0001 C CNN
+F 1 "+3V3" H 1965 1423 50  0000 C CNN
+F 2 "" H 1950 1250 50  0001 C CNN
+F 3 "" H 1950 1250 50  0001 C CNN
+	1    1950 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1150 1350 0    50   Input ~ 0
+DCC-b-F
+Text GLabel 1150 1750 0    50   Input ~ 0
+DCC-b0
+$Comp
+L Device:R R2
+U 1 1 6290F4A0
+P 1400 1750
+F 0 "R2" V 1200 1750 50  0001 C CNN
+F 1 ".1" V 1300 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1330 1750 50  0001 C CNN
+F 3 "~" H 1400 1750 50  0001 C CNN
+	1    1400 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 1250 3600 1250
+Connection ~ 3600 1250
+Connection ~ 3250 1350
+Wire Wire Line
+	1150 1350 3250 1350
+Wire Wire Line
+	1650 2300 3250 2300
+Wire Wire Line
+	3250 2300 3250 2200
+Connection ~ 3250 2200
+Connection ~ 3700 1450
+Wire Wire Line
+	2350 1850 2350 2500
+Wire Wire Line
+	2350 2500 5500 2500
+Text GLabel 5500 2500 2    50   Output ~ 0
+ISENS0
+Wire Wire Line
+	1950 2600 3600 2600
+Wire Wire Line
+	3600 2600 3600 2150
+Wire Wire Line
+	3600 2600 4950 2600
+Wire Wire Line
+	4950 2600 4950 2150
+Connection ~ 3600 2600
+Wire Wire Line
+	2450 1450 3700 1450
+Wire Wire Line
+	1950 1550 1950 1250
+Wire Wire Line
+	1950 2150 1950 2600
+Wire Wire Line
+	2450 2150 2450 1450
+Wire Wire Line
+	2150 2150 2450 2150
+$Comp
+L Amplifier_Current:INA181 U3
+U 1 1 62907A93
+P 2050 1850
+F 0 "U3" H 2200 1950 50  0000 L CNN
+F 1 "INA181-A1" H 2000 2100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2100 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina181.pdf" H 2200 2000 50  0001 C CNN
+	1    2050 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1750 1650 1750
+Wire Wire Line
+	1150 1750 1200 1750
+Wire Wire Line
+	1200 1750 1200 1950
+Connection ~ 1200 1750
+Wire Wire Line
+	1200 1750 1250 1750
+Wire Wire Line
+	1200 1950 1750 1950
+Wire Wire Line
+	1650 2300 1650 1750
+Connection ~ 1650 1750
+Wire Wire Line
+	1650 1750 1750 1750
+$Comp
+L _SamacSys:INA381 U8
+U 1 1 62A5C486
+P 3700 3950
+AR Path="/62A5C486" Ref="U8"  Part="1" 
+AR Path="/5B6D3404/62A5C486" Ref="U8"  Part="1" 
+F 0 "U8" H 3900 3900 50  0000 L CNN
+F 1 "INA381-A2" H 3900 3800 50  0000 L CNN
+F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" H 3700 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 3700 3950 50  0001 C CNN
+	1    3700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L _SamacSys:INA381 U9
+U 1 1 62A5C490
+P 5050 3950
+AR Path="/62A5C490" Ref="U9"  Part="1" 
+AR Path="/5B6D3404/62A5C490" Ref="U9"  Part="1" 
+F 0 "U9" H 5250 3900 50  0000 L CNN
+F 1 "INA381" H 5250 3800 50  0000 L CNN
+F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" H 5050 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 5050 3950 50  0001 C CNN
+	1    5050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 62A5C49A
+P 3050 3950
+F 0 "R18" V 2850 3950 50  0001 C CNN
+F 1 "22" V 2950 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 3950 50  0001 C CNN
+F 3 "~" H 3050 3950 50  0001 C CNN
+	1    3050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D17
+U 1 1 62A5C4A4
+P 2850 3950
+F 0 "D17" V 2804 4029 50  0001 L CNN
+F 1 "SS34FA" V 2895 4029 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 2850 3950 50  0001 C CNN
+F 3 "~" H 2850 3950 50  0001 C CNN
+	1    2850 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D16
+U 1 1 62A5C4AE
+P 2650 3950
+F 0 "D16" V 2604 4029 50  0001 L CNN
+F 1 "SS34FA" V 2695 4029 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 2650 3950 50  0001 C CNN
+F 3 "~" H 2650 3950 50  0001 C CNN
+	1    2650 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 3800 3250 3850
+Wire Wire Line
+	3250 3850 3400 3850
+Wire Wire Line
+	2650 3800 2850 3800
+Connection ~ 2850 3800
+Wire Wire Line
+	2850 3800 3050 3800
+Connection ~ 3050 3800
+Wire Wire Line
+	3050 3800 3250 3800
+Wire Wire Line
+	3250 4100 3250 4050
+Wire Wire Line
+	3250 4050 3400 4050
+Wire Wire Line
+	2650 4100 2850 4100
+Connection ~ 2850 4100
+Wire Wire Line
+	2850 4100 3050 4100
+Connection ~ 3050 4100
+Wire Wire Line
+	3050 4100 3250 4100
+Wire Wire Line
+	3800 3650 4000 3650
+Wire Wire Line
+	4000 3650 4000 3950
+Wire Wire Line
+	3800 4250 3800 4400
+Wire Wire Line
+	3800 4400 5150 4400
+Wire Wire Line
+	5150 4400 5150 4250
+Wire Wire Line
+	3700 4250 3700 4500
+Wire Wire Line
+	3700 4500 5050 4500
+Wire Wire Line
+	5050 4500 5050 4250
+Wire Wire Line
+	5050 4500 5500 4500
+Connection ~ 5050 4500
+Wire Wire Line
+	5150 4400 5500 4400
+Connection ~ 5150 4400
+Wire Wire Line
+	5050 3550 5050 3650
+Wire Wire Line
+	5050 3550 3700 3550
+Wire Wire Line
+	3700 3550 3700 3650
+Wire Wire Line
+	5150 3650 5350 3650
+Wire Wire Line
+	5350 3650 5350 3950
+Wire Wire Line
+	3250 4100 3250 4300
+Wire Wire Line
+	3250 4300 4500 4300
+Connection ~ 3250 4100
+Wire Wire Line
+	3600 3350 3600 3650
+Wire Wire Line
+	3600 3350 4950 3350
+Wire Wire Line
+	4950 3350 4950 3650
+Connection ~ 3250 3800
+Wire Wire Line
+	4500 4300 4500 4050
+Wire Wire Line
+	4500 3850 4700 4050
+Wire Wire Line
+	4700 4050 4750 4050
+Wire Wire Line
+	4500 4050 4700 3850
+Wire Wire Line
+	4700 3850 4750 3850
+Text GLabel 5500 4500 2    50   Output ~ 0
+OCC1
+Wire Wire Line
+	3250 3450 4500 3450
+Wire Wire Line
+	4500 3450 4500 3850
+Wire Wire Line
+	3250 3450 3250 3800
+Text GLabel 1150 3450 0    50   Input ~ 0
+DCC-b-F
+Text GLabel 1150 3850 0    50   Input ~ 0
+DCC-b1
+$Comp
+L Device:R R17
+U 1 1 62A5C4FB
+P 1400 3850
+F 0 "R17" V 1200 3850 50  0001 C CNN
+F 1 ".1" V 1300 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1330 3850 50  0001 C CNN
+F 3 "~" H 1400 3850 50  0001 C CNN
+	1    1400 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 3350 3600 3350
+Connection ~ 3600 3350
+Connection ~ 3250 3450
+Wire Wire Line
+	1150 3450 3250 3450
+Wire Wire Line
+	1650 4400 3250 4400
+Wire Wire Line
+	3250 4400 3250 4300
+Connection ~ 3250 4300
+Connection ~ 3700 3550
+Wire Wire Line
+	2350 3950 2350 4600
+Wire Wire Line
+	2350 4600 5500 4600
+Wire Wire Line
+	1950 4700 3600 4700
+Wire Wire Line
+	3600 4700 3600 4250
+Wire Wire Line
+	3600 4700 4950 4700
+Wire Wire Line
+	4950 4700 4950 4250
+Connection ~ 3600 4700
+Wire Wire Line
+	2450 3550 3700 3550
+Wire Wire Line
+	1950 3650 1950 3350
+Wire Wire Line
+	1950 4250 1950 4700
+Wire Wire Line
+	2450 4250 2450 3550
+Wire Wire Line
+	2150 4250 2450 4250
+$Comp
+L Amplifier_Current:INA181 U7
+U 1 1 62A5C524
+P 2050 3950
+F 0 "U7" H 2200 4050 50  0000 L CNN
+F 1 "INA181-A1" H 2000 4200 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2100 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina181.pdf" H 2200 4100 50  0001 C CNN
+	1    2050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3850 1650 3850
+Wire Wire Line
+	1150 3850 1200 3850
+Wire Wire Line
+	1200 3850 1200 4050
+Connection ~ 1200 3850
+Wire Wire Line
+	1200 3850 1250 3850
+Wire Wire Line
+	1200 4050 1750 4050
+Wire Wire Line
+	1650 4400 1650 3850
+Connection ~ 1650 3850
+Wire Wire Line
+	1650 3850 1750 3850
+Text GLabel 5500 4600 2    50   Output ~ 0
+ISENS1
+$Comp
+L power:GND #PWR?
+U 1 1 62A8B327
+P 1950 4700
+AR Path="/5B6C6B9D/62A8B327" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/62A8B327" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/62A8B327" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 1950 4450 50  0001 C CNN
+F 1 "GND" H 1955 4527 50  0000 C CNN
+F 2 "" H 1950 4700 50  0001 C CNN
+F 3 "" H 1950 4700 50  0001 C CNN
+	1    1950 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1450 5500 1450
+Wire Wire Line
+	5150 2300 5500 2300
+$Comp
+L power:GND #PWR?
+U 1 1 62AAD37A
+P 1950 2600
+AR Path="/5B6C6B9D/62AAD37A" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/62AAD37A" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/62AAD37A" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 1950 2350 50  0001 C CNN
+F 1 "GND" H 1955 2427 50  0000 C CNN
+F 2 "" H 1950 2600 50  0001 C CNN
+F 3 "" H 1950 2600 50  0001 C CNN
+	1    1950 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 2600
+Connection ~ 1950 1250
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62AAE4C6
+P 1950 3350
+AR Path="/5B6C6B9D/62AAE4C6" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/62AAE4C6" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 1950 3200 50  0001 C CNN
+F 1 "+3V3" H 1965 3523 50  0000 C CNN
+F 2 "" H 1950 3350 50  0001 C CNN
+F 3 "" H 1950 3350 50  0001 C CNN
+	1    1950 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 3350
+Connection ~ 1950 4700
+Text GLabel 5500 4400 2    50   Input ~ 0
+OCCRES
+Text GLabel 5500 3550 2    50   Input ~ 0
+REF
+$Comp
+L _SamacSys:INA381 U11
+U 1 1 62B51FE4
+P 8850 1850
+AR Path="/62B51FE4" Ref="U11"  Part="1" 
+AR Path="/5B6D3404/62B51FE4" Ref="U11"  Part="1" 
+F 0 "U11" H 9050 1800 50  0000 L CNN
+F 1 "INA381" H 9050 1700 50  0000 L CNN
+F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" H 8850 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 8850 1850 50  0001 C CNN
+	1    8850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L _SamacSys:INA381 U12
+U 1 1 62B51FEE
+P 10200 1850
+AR Path="/62B51FEE" Ref="U12"  Part="1" 
+AR Path="/5B6D3404/62B51FEE" Ref="U12"  Part="1" 
+F 0 "U12" H 10400 1800 50  0000 L CNN
+F 1 "INA381" H 10400 1700 50  0000 L CNN
+F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" H 10200 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 10200 1850 50  0001 C CNN
+	1    10200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 62B51FF8
+P 8200 1850
+F 0 "R21" V 8000 1850 50  0001 C CNN
+F 1 "22" V 8100 1850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 1850 50  0001 C CNN
+F 3 "~" H 8200 1850 50  0001 C CNN
+	1    8200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D19
+U 1 1 62B52002
+P 8000 1850
+F 0 "D19" V 7954 1929 50  0001 L CNN
+F 1 "SS34FA" V 8045 1929 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 8000 1850 50  0001 C CNN
+F 3 "~" H 8000 1850 50  0001 C CNN
+	1    8000 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D18
+U 1 1 62B5200C
+P 7800 1850
+F 0 "D18" V 7754 1929 50  0001 L CNN
+F 1 "SS34FA" V 7845 1929 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 7800 1850 50  0001 C CNN
+F 3 "~" H 7800 1850 50  0001 C CNN
+	1    7800 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 1700 8400 1750
+Wire Wire Line
+	8400 1750 8550 1750
+Wire Wire Line
+	7800 1700 8000 1700
+Connection ~ 8000 1700
+Wire Wire Line
+	8000 1700 8200 1700
+Connection ~ 8200 1700
+Wire Wire Line
+	8200 1700 8400 1700
+Wire Wire Line
+	8400 2000 8400 1950
+Wire Wire Line
+	8400 1950 8550 1950
+Wire Wire Line
+	7800 2000 8000 2000
+Connection ~ 8000 2000
+Wire Wire Line
+	8000 2000 8200 2000
+Connection ~ 8200 2000
+Wire Wire Line
+	8200 2000 8400 2000
+Wire Wire Line
+	8950 1550 9150 1550
+Wire Wire Line
+	9150 1550 9150 1850
+Text GLabel 10650 1450 2    50   Input ~ 0
+REF
+Wire Wire Line
+	8950 2150 8950 2300
+Wire Wire Line
+	8950 2300 10300 2300
+Wire Wire Line
+	10300 2300 10300 2150
+Wire Wire Line
+	8850 2150 8850 2400
+Wire Wire Line
+	8850 2400 10200 2400
+Wire Wire Line
+	10200 2400 10200 2150
+Wire Wire Line
+	10200 2400 10650 2400
+Connection ~ 10200 2400
+Connection ~ 10300 2300
+Wire Wire Line
+	10200 1450 10200 1550
+Wire Wire Line
+	10200 1450 8850 1450
+Wire Wire Line
+	8850 1450 8850 1550
+Connection ~ 10200 1450
+Wire Wire Line
+	10300 1550 10500 1550
+Wire Wire Line
+	10500 1550 10500 1850
+Wire Wire Line
+	8400 2000 8400 2200
+Wire Wire Line
+	8400 2200 9650 2200
+Connection ~ 8400 2000
+Wire Wire Line
+	8750 1250 8750 1550
+Wire Wire Line
+	8750 1250 10100 1250
+Wire Wire Line
+	10100 1250 10100 1550
+Connection ~ 8400 1700
+Wire Wire Line
+	9650 2200 9650 1950
+Wire Wire Line
+	9650 1750 9850 1950
+Wire Wire Line
+	9850 1950 9900 1950
+Wire Wire Line
+	9650 1950 9850 1750
+Wire Wire Line
+	9850 1750 9900 1750
+Text GLabel 10650 2400 2    50   Output ~ 0
+OCC2
+Wire Wire Line
+	8400 1350 9650 1350
+Wire Wire Line
+	9650 1350 9650 1750
+Wire Wire Line
+	8400 1350 8400 1700
+Text GLabel 10650 2300 2    50   Input ~ 0
+OCCRES
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62B52047
+P 7100 1250
+AR Path="/5B6C6B9D/62B52047" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/62B52047" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 7100 1100 50  0001 C CNN
+F 1 "+3V3" H 7115 1423 50  0000 C CNN
+F 2 "" H 7100 1250 50  0001 C CNN
+F 3 "" H 7100 1250 50  0001 C CNN
+	1    7100 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 1350 0    50   Input ~ 0
+DCC-b-F
+Text GLabel 6300 1750 0    50   Input ~ 0
+DCC-b2
+$Comp
+L Device:R R19
+U 1 1 62B52053
+P 6550 1750
+F 0 "R19" V 6350 1750 50  0001 C CNN
+F 1 ".1" V 6450 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6480 1750 50  0001 C CNN
+F 3 "~" H 6550 1750 50  0001 C CNN
+	1    6550 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 1250 8750 1250
+Connection ~ 8750 1250
+Connection ~ 8400 1350
+Wire Wire Line
+	6300 1350 8400 1350
+Wire Wire Line
+	6800 2300 8400 2300
+Wire Wire Line
+	8400 2300 8400 2200
+Connection ~ 8400 2200
+Connection ~ 8850 1450
+Wire Wire Line
+	7500 1850 7500 2500
+Wire Wire Line
+	7500 2500 10650 2500
+Text GLabel 10650 2500 2    50   Output ~ 0
+ISENS2
+Wire Wire Line
+	7100 2600 8750 2600
+Wire Wire Line
+	8750 2600 8750 2150
+Wire Wire Line
+	8750 2600 10100 2600
+Wire Wire Line
+	10100 2600 10100 2150
+Connection ~ 8750 2600
+Wire Wire Line
+	7600 1450 8850 1450
+Wire Wire Line
+	7100 1550 7100 1250
+Wire Wire Line
+	7100 2150 7100 2600
+Wire Wire Line
+	7600 2150 7600 1450
+Wire Wire Line
+	7300 2150 7600 2150
+$Comp
+L Amplifier_Current:INA181 U10
+U 1 1 62B52072
+P 7200 1850
+F 0 "U10" H 7350 1950 50  0000 L CNN
+F 1 "INA181-A1" H 7150 2100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7250 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina181.pdf" H 7350 2000 50  0001 C CNN
+	1    7200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1750 6800 1750
+Wire Wire Line
+	6300 1750 6350 1750
+Wire Wire Line
+	6350 1750 6350 1950
+Connection ~ 6350 1750
+Wire Wire Line
+	6350 1750 6400 1750
+Wire Wire Line
+	6350 1950 6900 1950
+Wire Wire Line
+	6800 2300 6800 1750
+Connection ~ 6800 1750
+Wire Wire Line
+	6800 1750 6900 1750
+Wire Wire Line
+	10200 1450 10650 1450
+Wire Wire Line
+	10300 2300 10650 2300
+$Comp
+L power:GND #PWR?
+U 1 1 62B52087
+P 7100 2600
+AR Path="/5B6C6B9D/62B52087" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/62B52087" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/62B52087" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 7100 2350 50  0001 C CNN
+F 1 "GND" H 7105 2427 50  0000 C CNN
+F 2 "" H 7100 2600 50  0001 C CNN
+F 3 "" H 7100 2600 50  0001 C CNN
+	1    7100 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 2600
+Connection ~ 7100 1250
+$Comp
+L _SamacSys:INA381 U14
+U 1 1 62B71542
+P 8850 3850
+AR Path="/62B71542" Ref="U14"  Part="1" 
+AR Path="/5B6D3404/62B71542" Ref="U14"  Part="1" 
+F 0 "U14" H 9050 3800 50  0000 L CNN
+F 1 "INA381" H 9050 3700 50  0000 L CNN
+F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" H 8850 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 8850 3850 50  0001 C CNN
+	1    8850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L _SamacSys:INA381 U15
+U 1 1 62B7154C
+P 10200 3850
+AR Path="/62B7154C" Ref="U15"  Part="1" 
+AR Path="/5B6D3404/62B7154C" Ref="U15"  Part="1" 
+F 0 "U15" H 10400 3800 50  0000 L CNN
+F 1 "INA381" H 10400 3700 50  0000 L CNN
+F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" H 10200 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 10200 3850 50  0001 C CNN
+	1    10200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 62B71556
+P 8200 3850
+F 0 "R23" V 8000 3850 50  0001 C CNN
+F 1 "22" V 8100 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 3850 50  0001 C CNN
+F 3 "~" H 8200 3850 50  0001 C CNN
+	1    8200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D21
+U 1 1 62B71560
+P 8000 3850
+F 0 "D21" V 7954 3929 50  0001 L CNN
+F 1 "SS34FA" V 8045 3929 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 8000 3850 50  0001 C CNN
+F 3 "~" H 8000 3850 50  0001 C CNN
+	1    8000 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D20
+U 1 1 62B7156A
+P 7800 3850
+F 0 "D20" V 7754 3929 50  0001 L CNN
+F 1 "SS34FA" V 7845 3929 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 7800 3850 50  0001 C CNN
+F 3 "~" H 7800 3850 50  0001 C CNN
+	1    7800 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3700 8400 3750
+Wire Wire Line
+	8400 3750 8550 3750
+Wire Wire Line
+	7800 3700 8000 3700
+Connection ~ 8000 3700
+Wire Wire Line
+	8000 3700 8200 3700
+Connection ~ 8200 3700
+Wire Wire Line
+	8200 3700 8400 3700
+Wire Wire Line
+	8400 4000 8400 3950
+Wire Wire Line
+	8400 3950 8550 3950
+Wire Wire Line
+	7800 4000 8000 4000
+Connection ~ 8000 4000
+Wire Wire Line
+	8000 4000 8200 4000
+Connection ~ 8200 4000
+Wire Wire Line
+	8200 4000 8400 4000
+Wire Wire Line
+	8950 3550 9150 3550
+Wire Wire Line
+	9150 3550 9150 3850
+Text GLabel 10650 3450 2    50   Input ~ 0
+REF
+Wire Wire Line
+	8950 4150 8950 4300
+Wire Wire Line
+	8950 4300 10300 4300
+Wire Wire Line
+	10300 4300 10300 4150
+Wire Wire Line
+	8850 4150 8850 4400
+Wire Wire Line
+	8850 4400 10200 4400
+Wire Wire Line
+	10200 4400 10200 4150
+Wire Wire Line
+	10200 4400 10650 4400
+Connection ~ 10200 4400
+Connection ~ 10300 4300
+Wire Wire Line
+	10200 3450 10200 3550
+Wire Wire Line
+	10200 3450 8850 3450
+Wire Wire Line
+	8850 3450 8850 3550
+Connection ~ 10200 3450
+Wire Wire Line
+	10300 3550 10500 3550
+Wire Wire Line
+	10500 3550 10500 3850
+Wire Wire Line
+	8400 4000 8400 4200
+Wire Wire Line
+	8400 4200 9650 4200
+Connection ~ 8400 4000
+Wire Wire Line
+	8750 3250 8750 3550
+Wire Wire Line
+	8750 3250 10100 3250
+Wire Wire Line
+	10100 3250 10100 3550
+Connection ~ 8400 3700
+Wire Wire Line
+	9650 4200 9650 3950
+Wire Wire Line
+	9650 3750 9850 3950
+Wire Wire Line
+	9850 3950 9900 3950
+Wire Wire Line
+	9650 3950 9850 3750
+Wire Wire Line
+	9850 3750 9900 3750
+Text GLabel 10650 4400 2    50   Output ~ 0
+OCC3
+Wire Wire Line
+	8400 3350 9650 3350
+Wire Wire Line
+	9650 3350 9650 3750
+Wire Wire Line
+	8400 3350 8400 3700
+Text GLabel 10650 4300 2    50   Input ~ 0
+OCCRES
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62B715A5
+P 7100 3250
+AR Path="/5B6C6B9D/62B715A5" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/62B715A5" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 7100 3100 50  0001 C CNN
+F 1 "+3V3" H 7115 3423 50  0000 C CNN
+F 2 "" H 7100 3250 50  0001 C CNN
+F 3 "" H 7100 3250 50  0001 C CNN
+	1    7100 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 3350 0    50   Input ~ 0
+DCC-b-F
+Text GLabel 6300 3750 0    50   Input ~ 0
+DCC-b3
+$Comp
+L Device:R R22
+U 1 1 62B715B1
+P 6550 3750
+F 0 "R22" V 6350 3750 50  0001 C CNN
+F 1 ".1" V 6450 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6480 3750 50  0001 C CNN
+F 3 "~" H 6550 3750 50  0001 C CNN
+	1    6550 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 3250 8750 3250
+Connection ~ 8750 3250
+Connection ~ 8400 3350
+Wire Wire Line
+	6300 3350 8400 3350
+Wire Wire Line
+	6800 4300 8400 4300
+Wire Wire Line
+	8400 4300 8400 4200
+Connection ~ 8400 4200
+Connection ~ 8850 3450
+Wire Wire Line
+	7500 3850 7500 4500
+Wire Wire Line
+	7500 4500 10650 4500
+Text GLabel 10650 4500 2    50   Output ~ 0
+ISENS3
+Wire Wire Line
+	7100 4600 8750 4600
+Wire Wire Line
+	8750 4600 8750 4150
+Wire Wire Line
+	8750 4600 10100 4600
+Wire Wire Line
+	10100 4600 10100 4150
+Connection ~ 8750 4600
+Wire Wire Line
+	7600 3450 8850 3450
+Wire Wire Line
+	7100 3550 7100 3250
+Wire Wire Line
+	7100 4150 7100 4600
+Wire Wire Line
+	7600 4150 7600 3450
+Wire Wire Line
+	7300 4150 7600 4150
+$Comp
+L Amplifier_Current:INA181 U13
+U 1 1 62B715D0
+P 7200 3850
+F 0 "U13" H 7350 3950 50  0000 L CNN
+F 1 "INA181-A1" H 7150 4100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7250 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina181.pdf" H 7350 4000 50  0001 C CNN
+	1    7200 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3750 6800 3750
+Wire Wire Line
+	6300 3750 6350 3750
+Wire Wire Line
+	6350 3750 6350 3950
+Connection ~ 6350 3750
+Wire Wire Line
+	6350 3750 6400 3750
+Wire Wire Line
+	6350 3950 6900 3950
+Wire Wire Line
+	6800 4300 6800 3750
+Connection ~ 6800 3750
+Wire Wire Line
+	6800 3750 6900 3750
+Wire Wire Line
+	10200 3450 10650 3450
+Wire Wire Line
+	10300 4300 10650 4300
+$Comp
+L power:GND #PWR?
+U 1 1 62B715E5
+P 7100 4600
+AR Path="/5B6C6B9D/62B715E5" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/62B715E5" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/62B715E5" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 7100 4350 50  0001 C CNN
+F 1 "GND" H 7105 4427 50  0000 C CNN
+F 2 "" H 7100 4600 50  0001 C CNN
+F 3 "" H 7100 4600 50  0001 C CNN
+	1    7100 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 4600
+Connection ~ 7100 3250
+Wire Wire Line
+	5050 3550 5500 3550
+Connection ~ 5050 3550
+$Comp
+L Device:C_Small C1
+U 1 1 626BB4EB
+P 1850 5650
+F 0 "C1" H 1942 5696 50  0000 L CNN
+F 1 "1u" H 1942 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1850 5650 50  0001 C CNN
+F 3 "~" H 1850 5650 50  0001 C CNN
+	1    1850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 626BBC51
+P 2100 5650
+F 0 "C2" H 2192 5696 50  0000 L CNN
+F 1 "1u" H 2192 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2100 5650 50  0001 C CNN
+F 3 "~" H 2100 5650 50  0001 C CNN
+	1    2100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 626BC004
+P 2350 5650
+F 0 "C3" H 2442 5696 50  0000 L CNN
+F 1 "1u" H 2442 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2350 5650 50  0001 C CNN
+F 3 "~" H 2350 5650 50  0001 C CNN
+	1    2350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 626BC338
+P 2600 5650
+F 0 "C4" H 2692 5696 50  0000 L CNN
+F 1 "1u" H 2692 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2600 5650 50  0001 C CNN
+F 3 "~" H 2600 5650 50  0001 C CNN
+	1    2600 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5550 1850 5450
+Wire Wire Line
+	1850 5450 2100 5450
+Wire Wire Line
+	2600 5450 2600 5550
+Wire Wire Line
+	2350 5550 2350 5450
+Connection ~ 2350 5450
+Wire Wire Line
+	2350 5450 2600 5450
+Wire Wire Line
+	2100 5550 2100 5450
+Connection ~ 2100 5450
+Wire Wire Line
+	2100 5450 2350 5450
+Wire Wire Line
+	1850 5750 1850 5850
+Wire Wire Line
+	1850 5850 2100 5850
+Wire Wire Line
+	2600 5850 2600 5750
+Wire Wire Line
+	2350 5750 2350 5850
+Connection ~ 2350 5850
+Wire Wire Line
+	2350 5850 2600 5850
+Wire Wire Line
+	2100 5750 2100 5850
+Connection ~ 2100 5850
+$Comp
+L power:GND #PWR?
+U 1 1 62726639
+P 1850 5850
+AR Path="/5B6C6B9D/62726639" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/62726639" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/62726639" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 1850 5600 50  0001 C CNN
+F 1 "GND" H 1855 5677 50  0000 C CNN
+F 2 "" H 1850 5850 50  0001 C CNN
+F 3 "" H 1850 5850 50  0001 C CNN
+	1    1850 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 5850
+Wire Wire Line
+	2100 5850 2350 5850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62726B55
+P 1850 5450
+AR Path="/5B6C6B9D/62726B55" Ref="#PWR?"  Part="1" 
+AR Path="/5B6D3404/62726B55" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 1850 5300 50  0001 C CNN
+F 1 "+3V3" H 1865 5623 50  0000 C CNN
+F 2 "" H 1850 5450 50  0001 C CNN
+F 3 "" H 1850 5450 50  0001 C CNN
+	1    1850 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 5450
+$EndSCHEMATC
