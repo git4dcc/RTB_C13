@@ -28,7 +28,7 @@ $EndSheet
 $Sheet
 S 3150 3250 1700 750 
 U 5B6E0562
-F0 "SLOT" 79
+F0 "Connector" 79
 F1 "C13con.sch" 79
 $EndSheet
 $Sheet

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 650  800  0    118  ~ 0
-RcmTX
+Railcom / Current sensors
 $Comp
 L Device:R R34
 U 1 1 5FD5C082
@@ -237,7 +237,7 @@ $EndComp
 Text GLabel 4050 7000 0    50   Input ~ 0
 DCC-a
 $Comp
-L _SamacSys:INA381 U5
+L RTB:INA381 U5
 U 1 1 62807C1D
 P 3700 1850
 AR Path="/62807C1D" Ref="U5"  Part="1" 
@@ -250,7 +250,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 3700 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _SamacSys:INA381 U6
+L RTB:INA381 U6
 U 1 1 628097D0
 P 5050 1850
 AR Path="/628097D0" Ref="U6"  Part="1" 
@@ -477,7 +477,7 @@ Connection ~ 1650 1750
 Wire Wire Line
 	1650 1750 1750 1750
 $Comp
-L _SamacSys:INA381 U8
+L RTB:INA381 U8
 U 1 1 62A5C486
 P 3700 3950
 AR Path="/62A5C486" Ref="U8"  Part="1" 
@@ -490,7 +490,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 3700 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _SamacSys:INA381 U9
+L RTB:INA381 U9
 U 1 1 62A5C490
 P 5050 3950
 AR Path="/62A5C490" Ref="U9"  Part="1" 
@@ -754,7 +754,7 @@ OCCRES
 Text GLabel 5500 3550 2    50   Input ~ 0
 REF
 $Comp
-L _SamacSys:INA381 U11
+L RTB:INA381 U11
 U 1 1 62B51FE4
 P 8850 1850
 AR Path="/62B51FE4" Ref="U11"  Part="1" 
@@ -767,7 +767,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 8850 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _SamacSys:INA381 U12
+L RTB:INA381 U12
 U 1 1 62B51FEE
 P 10200 1850
 AR Path="/62B51FEE" Ref="U12"  Part="1" 
@@ -1014,7 +1014,7 @@ $EndComp
 Connection ~ 7100 2600
 Connection ~ 7100 1250
 $Comp
-L _SamacSys:INA381 U14
+L RTB:INA381 U14
 U 1 1 62B71542
 P 8850 3850
 AR Path="/62B71542" Ref="U14"  Part="1" 
@@ -1027,7 +1027,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ina282.pdf" H 8850 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _SamacSys:INA381 U15
+L RTB:INA381 U15
 U 1 1 62B7154C
 P 10200 3850
 AR Path="/62B7154C" Ref="U15"  Part="1" 
