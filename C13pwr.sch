@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
-Title "C13"
-Date "2022-09-19"
-Rev "0"
+Title "RTB C13 Module"
+Date "2023-10-25"
+Rev "1"
 Comp "Frank Schumacher"
-Comment1 "C13.0"
-Comment2 "Occ*4 Board"
+Comment1 "Track Sensor"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -336,151 +336,151 @@ Connection ~ 3450 2800
 $Comp
 L _SamacSys:MPM3610AGQV-P IC2
 U 1 1 632B306D
-P 2850 5200
-F 0 "IC2" H 3500 5465 50  0000 C CNN
-F 1 "MPM3610AGQV-P" H 3500 5374 50  0000 C CNN
-F 2 "MPM3610AGQVP" H 4000 5300 50  0001 L CNN
-F 3 "https://www.monolithicpower.com/pub/media/document/MPM3610A_r1.0.pdf" H 4000 5200 50  0001 L CNN
-F 4 "Switching Voltage Regulators 21V/1.2A DC/DC Mini-Module Regulator with Integrated Inductor" H 4000 5100 50  0001 L CNN "Description"
-F 5 "1.65" H 4000 5000 50  0001 L CNN "Height"
-F 6 "946-MPM3610AGQV-P" H 4000 4900 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MPM3610AGQV-P/?qs=ZNK0BnemlqFzeYzHQ6kejw%3D%3D" H 4000 4800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Monolithic Power Systems (MPS)" H 4000 4700 50  0001 L CNN "Manufacturer_Name"
-F 9 "MPM3610AGQV-P" H 4000 4600 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2850 5200
+P 7500 1650
+F 0 "IC2" H 8150 1915 50  0000 C CNN
+F 1 "MPM3610AGQV-P" H 8150 1824 50  0000 C CNN
+F 2 "MPM3610AGQVP" H 8650 1750 50  0001 L CNN
+F 3 "https://www.monolithicpower.com/pub/media/document/MPM3610A_r1.0.pdf" H 8650 1650 50  0001 L CNN
+F 4 "Switching Voltage Regulators 21V/1.2A DC/DC Mini-Module Regulator with Integrated Inductor" H 8650 1550 50  0001 L CNN "Description"
+F 5 "1.65" H 8650 1450 50  0001 L CNN "Height"
+F 6 "946-MPM3610AGQV-P" H 8650 1350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MPM3610AGQV-P/?qs=ZNK0BnemlqFzeYzHQ6kejw%3D%3D" H 8650 1250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Monolithic Power Systems (MPS)" H 8650 1150 50  0001 L CNN "Manufacturer_Name"
+F 9 "MPM3610AGQV-P" H 8650 1050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7500 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 6000 2600 6000
+	7500 2450 7250 2450
 Wire Wire Line
-	2600 6000 2600 5900
+	7250 2450 7250 2350
 Wire Wire Line
-	2600 5800 2850 5800
+	7250 2250 7500 2250
 Wire Wire Line
-	2600 5900 2850 5900
-Connection ~ 2600 5900
+	7250 2350 7500 2350
+Connection ~ 7250 2350
 Wire Wire Line
-	2600 5900 2600 5800
+	7250 2350 7250 2250
 Wire Wire Line
-	2850 5700 2600 5700
+	7500 2150 7250 2150
 Wire Wire Line
-	2600 5700 2600 5600
+	7250 2150 7250 2050
 Wire Wire Line
-	2600 5500 2850 5500
+	7250 1950 7500 1950
 Wire Wire Line
-	2850 5600 2600 5600
-Connection ~ 2600 5600
+	7500 2050 7250 2050
+Connection ~ 7250 2050
 Wire Wire Line
-	2600 5600 2600 5500
+	7250 2050 7250 1950
 Wire Wire Line
-	4150 5300 4450 5300
+	8800 1750 9100 1750
 Wire Wire Line
-	4450 5300 4450 5400
+	9100 1750 9100 1850
 Wire Wire Line
-	4450 5500 4150 5500
+	9100 1950 8800 1950
 Wire Wire Line
-	4150 5400 4450 5400
-Connection ~ 4450 5400
+	8800 1850 9100 1850
+Connection ~ 9100 1850
 Wire Wire Line
-	4450 5400 4450 5500
+	9100 1850 9100 1950
 Wire Wire Line
-	2600 5600 2450 5600
+	7250 2050 7100 2050
 Wire Wire Line
-	2450 5600 2450 6400
+	7100 2050 7100 2850
 Wire Wire Line
-	2450 6400 4350 6400
+	7100 2850 9000 2850
 Wire Wire Line
-	4350 6400 4350 6000
+	9000 2850 9000 2450
 Wire Wire Line
-	4350 6000 4150 6000
-NoConn ~ 4150 5200
-NoConn ~ 2850 6100
-NoConn ~ 4150 5600
-NoConn ~ 2850 5300
+	9000 2450 8800 2450
+NoConn ~ 8800 1650
+NoConn ~ 7500 2550
+NoConn ~ 8800 2050
+NoConn ~ 7500 1750
 Wire Wire Line
-	2600 6000 2600 6300
+	7250 2450 7250 2750
 Wire Wire Line
-	2600 6300 4250 6300
+	7250 2750 8900 2750
 Wire Wire Line
-	4250 6300 4250 6100
+	8900 2750 8900 2550
 Wire Wire Line
-	4250 6100 4150 6100
-Connection ~ 2600 6000
-Text GLabel 5150 5700 2    50   Input ~ 0
+	8900 2550 8800 2550
+Connection ~ 7250 2450
+Text GLabel 9800 2150 2    50   Input ~ 0
 EDG.pwr
 Wire Wire Line
-	4150 5700 5150 5700
+	8800 2150 9800 2150
 $Comp
 L power:GND #PWR?
 U 1 1 632C8313
-P 4700 5400
+P 9350 1850
 AR Path="/5B6C6B9D/632C8313" Ref="#PWR?"  Part="1" 
 AR Path="/5CA7768A/632C8313" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 4700 5150 50  0001 C CNN
-F 1 "GND" H 4705 5227 50  0000 C CNN
-F 2 "" H 4700 5400 50  0001 C CNN
-F 3 "" H 4700 5400 50  0001 C CNN
-	1    4700 5400
+F 0 "#PWR0134" H 9350 1600 50  0001 C CNN
+F 1 "GND" H 9355 1677 50  0000 C CNN
+F 2 "" H 9350 1850 50  0001 C CNN
+F 3 "" H 9350 1850 50  0001 C CNN
+	1    9350 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 5400 4700 5400
+	9100 1850 9350 1850
 $Comp
 L power:GND #PWR?
 U 1 1 632CA643
-P 2250 5400
+P 6900 1850
 AR Path="/5B6C6B9D/632CA643" Ref="#PWR?"  Part="1" 
 AR Path="/5CA7768A/632CA643" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 2250 5150 50  0001 C CNN
-F 1 "GND" H 2255 5227 50  0000 C CNN
-F 2 "" H 2250 5400 50  0001 C CNN
-F 3 "" H 2250 5400 50  0001 C CNN
-	1    2250 5400
+F 0 "#PWR0136" H 6900 1600 50  0001 C CNN
+F 1 "GND" H 6905 1677 50  0000 C CNN
+F 2 "" H 6900 1850 50  0001 C CNN
+F 3 "" H 6900 1850 50  0001 C CNN
+	1    6900 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 5150 5800 2    50   Output ~ 0
+Text GLabel 9800 2250 2    50   Output ~ 0
 EDG.pwr.ena
 Wire Wire Line
-	5150 5800 4150 5800
+	9800 2250 8800 2250
 $Comp
 L Device:R R?
 U 1 1 632D0224
-P 2250 5250
+P 6900 1700
 AR Path="/5B6C6B9D/632D0224" Ref="R?"  Part="1" 
 AR Path="/5CA7768A/632D0224" Ref="R30"  Part="1" 
-F 0 "R30" H 2320 5296 50  0001 L CNN
-F 1 "30.1k" H 2300 5250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2180 5250 50  0001 C CNN
-F 3 "~" H 2250 5250 50  0001 C CNN
-	1    2250 5250
+F 0 "R30" H 6970 1746 50  0001 L CNN
+F 1 "30.1k" H 6950 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6830 1700 50  0001 C CNN
+F 3 "~" H 6900 1700 50  0001 C CNN
+	1    6900 1700
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 632D0F5B
-P 2250 4950
+P 6900 1400
 AR Path="/5B6C6B9D/632D0F5B" Ref="R?"  Part="1" 
 AR Path="/5CA7768A/632D0F5B" Ref="R29"  Part="1" 
-F 0 "R29" H 2320 4996 50  0001 L CNN
-F 1 "160k" H 2300 4950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2180 4950 50  0001 C CNN
-F 3 "~" H 2250 4950 50  0001 C CNN
-	1    2250 4950
+F 0 "R29" H 6970 1446 50  0001 L CNN
+F 1 "160k" H 6950 1400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6830 1400 50  0001 C CNN
+F 3 "~" H 6900 1400 50  0001 C CNN
+	1    6900 1400
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2250 5100 2650 5100
+	6900 1550 7300 1550
 Wire Wire Line
-	2650 5100 2650 5200
+	7300 1550 7300 1650
 Wire Wire Line
-	2650 5200 2850 5200
-Connection ~ 2250 5100
-Text GLabel 4600 6100 2    50   Input ~ 0
+	7300 1650 7500 1650
+Connection ~ 6900 1550
+Text GLabel 9250 2550 2    50   Input ~ 0
 +5V
 Wire Wire Line
-	4250 6100 4600 6100
-Connection ~ 4250 6100
-Text GLabel 2250 4800 1    50   Input ~ 0
+	8900 2550 9250 2550
+Connection ~ 8900 2550
+Text GLabel 6900 1250 1    50   Input ~ 0
 +5V
 $Comp
 L Device:C_Small C?
@@ -508,35 +508,35 @@ F 3 "~" H 2800 4250 50  0001 C CNN
 	1    2800 4250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2850 5400
-NoConn ~ 4150 5900
-NoConn ~ 4300 4750
+NoConn ~ 7500 1850
+NoConn ~ 8800 2350
+NoConn ~ 8950 1200
 $Comp
 L Regulator_Linear:KA78M05_TO252 U4
 U 1 1 636B39BF
-P 3500 6950
-F 0 "U4" H 3500 7192 50  0000 C CNN
-F 1 "KA78M05_TO252" H 3500 7101 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 3500 7175 50  0001 C CIN
-F 3 "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF" H 3500 6900 50  0001 C CNN
-	1    3500 6950
+P 8100 3950
+F 0 "U4" H 8100 4192 50  0000 C CNN
+F 1 "KA78M05_TO252" H 8100 4101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 8100 4175 50  0001 C CIN
+F 3 "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF" H 8100 3900 50  0001 C CNN
+	1    8100 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 636B5DF9
-P 3500 7250
+P 8100 4250
 AR Path="/5B6C6B9D/636B5DF9" Ref="#PWR?"  Part="1" 
 AR Path="/5CA7768A/636B5DF9" Ref="#PWR0137"  Part="1" 
-F 0 "#PWR0137" H 3500 7000 50  0001 C CNN
-F 1 "GND" H 3505 7077 50  0000 C CNN
-F 2 "" H 3500 7250 50  0001 C CNN
-F 3 "" H 3500 7250 50  0001 C CNN
-	1    3500 7250
+F 0 "#PWR0137" H 8100 4000 50  0001 C CNN
+F 1 "GND" H 8105 4077 50  0000 C CNN
+F 2 "" H 8100 4250 50  0001 C CNN
+F 3 "" H 8100 4250 50  0001 C CNN
+	1    8100 4250
 	1    0    0    -1  
 $EndComp
-Text GLabel 3800 6950 2    50   Input ~ 0
+Text GLabel 8400 3950 2    50   Input ~ 0
 +5V
-Text GLabel 3200 6950 0    50   Input ~ 0
+Text GLabel 7800 3950 0    50   Input ~ 0
 EDG.pwr
 $EndSCHEMATC

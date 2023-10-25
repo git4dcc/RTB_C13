@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
-Title "C13"
-Date "2022-09-19"
-Rev "0"
+Title "RTB C13 Module"
+Date "2023-10-25"
+Rev "1"
 Comp "Frank Schumacher"
-Comment1 "C13.0"
-Comment2 "Occ*4 Board"
+Comment1 "Track Sensor"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
