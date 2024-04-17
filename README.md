@@ -5,6 +5,8 @@
 
 The RTB C13 track sensor provides 4 feedback channels with current measurement and Railcom detection.
 
+[more](https://rtb4dcc.de/hardware/modules/c13/)
+
 # PCB
 <img src="https://rtb4dcc.de/wp-content/uploads/2024/01/C13_1.png" width=600>
 
