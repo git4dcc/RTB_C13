@@ -9920,7 +9920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 91.44 82.55 0)
 			(effects
 				(font
@@ -9929,7 +9929,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C11702"
 			(at 91.44 82.55 0)
 			(effects
 				(font
@@ -11186,7 +11186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 40.64 109.22 0)
 			(effects
 				(font
@@ -11195,7 +11195,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C11702"
 			(at 40.64 109.22 0)
 			(effects
 				(font
