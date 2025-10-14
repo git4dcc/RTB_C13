@@ -23,7 +23,7 @@ My homebrew RTB C13 track sensor provides 4 real-time feedback channels with cur
 
 </details>
 
-<img src="supplemental/images/C13_main.JPG" width=900>
+<img src="supplemental/images/C13_main.jpg" width=900>
 
 ## Track Sensor features
 - **HDX**
@@ -70,6 +70,6 @@ Example: **C13F0001**.hex
 [Firmware files](firmware)
 
 # Images
-<img src="supplemental/images/C13_usecase2.JPG" width=900> 
+<img src="supplemental/images/C13_usecase2.jpg" width=900> 
 
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
