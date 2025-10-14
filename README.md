@@ -23,7 +23,7 @@ My homebrew RTB C13 track sensor provides 4 real-time feedback channels with cur
 
 </details>
 
-<img src="supplemental/images/C13_main.jpg" width=700>
+<img src="supplemental/images/C13_main.jpg" width=600>
 
 ## Track Sensor features
 - **HDX**
@@ -43,11 +43,11 @@ My homebrew RTB C13 track sensor provides 4 real-time feedback channels with cur
 - firmware update over the bus
 
 # Hardware
-The PCB layout uses SMD footprints with 0.4mm pitch and down to 0402 parts. Reflow soldering is mandatory.
-Further, the PCB has been optimized for automated assembly (BOM and Position files as CSV).
+The PCB layout uses SMD footprints with 0.4mm pitch, 0603 parts down to 0402. Reflow soldering is mandatory.
+The PCB has been optimized for automated assembly (SMD parts are located on bottom side).
 
-<img src="supplemental/images/C13_top.jpg" width=600>
-<img src="supplemental/images/C13_btm.jpg" width=604>
+<img src="supplemental/images/C13_top.jpg" width=570>
+<img src="supplemental/images/C13_btm.jpg" width=560>
 
 ## PCB
 - 2-layer PCB, FR4, 1.6mm
