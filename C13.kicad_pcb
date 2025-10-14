@@ -8373,15 +8373,15 @@
 			(uuid "25e91308-91e8-4337-a206-0048638f875c")
 		)
 		(embedded_fonts no)
-		(model "C:\\RnD\\NMRA\\_AtmelStudio\\SamacSys\\SamacSys_Parts.3dshapes\\1725672.stp"
+		(model "C:/RnD/NMRA/_KiCad/SamacSys/SamacSys_Parts.3dshapes/1725672.stp"
 			(offset
-				(xyz 9.119999749 3.099999858 0)
+				(xyz 9.1 3 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 -90)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -8620,7 +8620,7 @@
 			(uuid "d2fc22fb-7866-431f-9414-9660531875e3")
 		)
 		(embedded_fonts no)
-		(model "C:\\RnD\\NMRA\\_AtmelStudio\\SamacSys\\SamacSys_Parts.3dshapes\\1725672.stp"
+		(model "C:/RnD/NMRA/_KiCad/SamacSys/SamacSys_Parts.3dshapes/1725672.stp"
 			(offset
 				(xyz 9.119999749 3.099999858 0)
 			)
@@ -10752,15 +10752,15 @@
 			(uuid "b528e33f-959d-49f8-9219-0555ef1321bd")
 		)
 		(embedded_fonts no)
-		(model "C:\\RnD\\NMRA\\_AtmelStudio\\SamacSys\\SamacSys_Parts.3dshapes\\1725656.stp"
+		(model "C:/RnD/NMRA/_KiCad/SamacSys/SamacSys_Parts.3dshapes/1725656.stp"
 			(offset
-				(xyz 4.039999901 -3.099999858 0.4999999925)
+				(xyz 4.04 -3.1 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 -90)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
