@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "RTB C13 Module")
-		(date "2023-10-25")
-		(rev "1")
+		(date "2025-10-14")
+		(rev "2")
 		(company "Frank Schumacher")
 		(comment 1 "Track Sensor")
 	)
@@ -4654,7 +4654,7 @@
 				)
 			)
 		)
-		(property "Value" "MPM3610AGQV-P"
+		(property "Value" "MPM3610AGQV"
 			(at 215.9 43.8404 0)
 			(effects
 				(font
@@ -4692,7 +4692,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C6097430"
+		(property "LCSC Part #" "C5173872"
 			(at 199.39 48.26 0)
 			(effects
 				(font

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "RTB C13 Module")
-		(date "2023-10-25")
-		(rev "1")
+		(date "2025-10-14")
+		(rev "2")
 		(company "Frank Schumacher")
 		(comment 1 "Track Sensor")
 	)

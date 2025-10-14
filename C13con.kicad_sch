@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "RTB C13 Module")
-		(date "2023-10-25")
-		(rev "1")
+		(date "2025-10-14")
+		(rev "2")
 		(company "Frank Schumacher")
 		(comment 1 "Track Sensor")
 	)
@@ -5815,7 +5815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC848W"
+		(property "Value" "BC848"
 			(at 100.5586 133.223 0)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100MHz 100mA 110@2mA,5V 15nA 200mV 200mW 30V 5V NPN SOT-323 Bipolar (BJT) ROHS"
+		(property "Description" "-65℃~+150℃ 100mA 100nA 200@2mA,5V 200MHz 200mW 250mV 30V NPN SOT-323 Bipolar (BJT) ROHS"
 			(at 105.41 132.08 0)
 			(effects
 				(font
@@ -5854,7 +5854,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C549496"
+		(property "LCSC Part #" "C600677"
 			(at 105.41 132.08 0)
 			(effects
 				(font
