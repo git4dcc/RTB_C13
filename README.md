@@ -4,7 +4,7 @@
 [![Real-time Bus (RTB)](https://img.shields.io/badge/RTB_suite-66FF33)](https://github.com/git4dcc/RTB_suite)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-My homebrew RTB C13 track sensor provides 4 real-time feedback channels with current and Railcom detection. In addition, an EDG bus bridge is provided with 1A bus power supply.
+My homebrew RTB C13 track sensor provides 4 real-time feedback channels with current and Railcom detection. In addition, an EDG bus interface is provided for accessory fan out.
 
 <details>
 <summary>See also</summary>
@@ -23,7 +23,7 @@ My homebrew RTB C13 track sensor provides 4 real-time feedback channels with cur
 
 </details>
 
-<img src="supplemental/images/C13_main.jpg" width=900>
+<img src="supplemental/images/C13_main.jpg" width=700>
 
 ## Track Sensor features
 - **HDX**
@@ -46,8 +46,8 @@ My homebrew RTB C13 track sensor provides 4 real-time feedback channels with cur
 The PCB layout uses SMD footprints with 0.4mm pitch and down to 0402 parts. Reflow soldering is mandatory.
 Further, the PCB has been optimized for automated assembly (BOM and Position files as CSV).
 
-<img src="supplemental/images/C13_top.JPG" width=600>
-<img src="supplemental/images/C13_btm.JPG" width=604>
+<img src="supplemental/images/C13_top.jpg" width=600>
+<img src="supplemental/images/C13_btm.jpg" width=604>
 
 ## PCB
 - 2-layer PCB, FR4, 1.6mm
