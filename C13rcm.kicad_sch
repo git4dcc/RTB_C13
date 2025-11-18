@@ -7,7 +7,7 @@
 	(title_block
 		(title "RTB C13 Module")
 		(date "2025-10-14")
-		(rev "2")
+		(rev "3")
 		(company "Frank Schumacher")
 		(comment 1 "Track Sensor")
 	)
@@ -6978,7 +6978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA381"
+		(property "Value" "INA381A2"
 			(at 99.06 50.8 0)
 			(effects
 				(font
@@ -7014,7 +7014,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C544574"
+		(property "LCSC Part #" "C2155688"
 			(at 93.98 46.99 0)
 			(effects
 				(font
@@ -7081,7 +7081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA381"
+		(property "Value" "INA381A2"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -7117,7 +7117,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C544574"
+		(property "LCSC Part #" "C2155688"
 			(at 128.27 46.99 0)
 			(effects
 				(font
@@ -7648,7 +7648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA381"
+		(property "Value" "INA381A2"
 			(at 99.06 104.14 0)
 			(effects
 				(font
@@ -7684,7 +7684,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C544574"
+		(property "LCSC Part #" "C2155688"
 			(at 93.98 100.33 0)
 			(effects
 				(font
@@ -7751,7 +7751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA381"
+		(property "Value" "INA381A2"
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -7787,7 +7787,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C544574"
+		(property "LCSC Part #" "C2155688"
 			(at 128.27 100.33 0)
 			(effects
 				(font
@@ -8461,7 +8461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA381"
+		(property "Value" "INA381A2"
 			(at 229.87 50.8 0)
 			(effects
 				(font
@@ -8497,7 +8497,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C544574"
+		(property "LCSC Part #" "C2155688"
 			(at 224.79 46.99 0)
 			(effects
 				(font
@@ -8564,7 +8564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA381"
+		(property "Value" "INA381A2"
 			(at 264.16 50.8 0)
 			(effects
 				(font
@@ -8600,7 +8600,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C544574"
+		(property "LCSC Part #" "C2155688"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -9203,7 +9203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA381"
+		(property "Value" "INA381A2"
 			(at 229.87 104.14 0)
 			(effects
 				(font
@@ -9239,7 +9239,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C544574"
+		(property "LCSC Part #" "C2155688"
 			(at 224.79 100.33 0)
 			(effects
 				(font
@@ -9306,7 +9306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA381"
+		(property "Value" "INA381A2"
 			(at 264.16 104.14 0)
 			(effects
 				(font
@@ -9342,7 +9342,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C544574"
+		(property "LCSC Part #" "C2155688"
 			(at 259.08 100.33 0)
 			(effects
 				(font
