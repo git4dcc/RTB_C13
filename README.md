@@ -4,7 +4,7 @@
 [![Real-time Bus (RTB)](https://img.shields.io/badge/RTB_suite-66FF33)](https://github.com/git4dcc/RTB_suite)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-My homebrew RTB C13 track sensor provides 4 real-time feedback channels with current and Railcom detection. In addition, an EDG bus interface is provided for accessory fan out.
+My homebrew RTB C13 track sensor features a 4 channel RailCom® detector, real-time block occupancy monitoring, and dedicated short-circuit protection. It also includes a built-in EDG bus interface, allowing for seamless accessory fan-out and expanded system integration.
 
 <details>
 <summary>See also</summary>
@@ -29,11 +29,11 @@ My homebrew RTB C13 track sensor provides 4 real-time feedback channels with cur
 - **HDX**
   - HDX bus (2Mbps half duplex, RS-485 differential)
 - **EDG**
-  - EDG bus bridge (2Mbps half duplex, TTL level)
+  - EDG accessory bus bridge (2Mbps half duplex, TTL level)
 - **DCC**
-  - output for 4 individual feedback tracks
-  - current measurement per track (>1mA)
-  - short circuit detection /w tracks power-off
+  - Quad-Channel Real-time RailCom® Monitoring and Block Occupancy detection.
+  - Current measurement per channel
+  - Short-circuit safeguarding for all 4 channels
 - **Railcom Detector**
   - channel 1 / channel 2
   - detects unlimited number of decoder per track
