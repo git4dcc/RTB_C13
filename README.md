@@ -9,9 +9,9 @@ My homebrew RTB C13 track sensor features a 4 channel RailCom® detector, real-t
 <details>
 <summary>See also</summary>
 
-- [RTB_C10 - Master](https://github.com/git4dcc/RTB_C10)
-- [RTB_C11 - Power](https://github.com/git4dcc/RTB_C11)
-- [RTB_C12 - Booster](https://github.com/git4dcc/RTB_C12)
+- [RTB_C10 - Master](/../../../../git4dcc/RTB_C10)
+- [RTB_C11 - Power](/../../../../git4dcc/RTB_C11)
+- [RTB_C12 - Booster](/../../../../git4dcc/RTB_C12)
 
 </details>
 
